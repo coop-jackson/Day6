@@ -23,12 +23,12 @@ def unique_elements(num, line):
                 differ = True
         
         if differ:
-            print(i + 1)
-            break
+            return 1 + 1
+            
 with open('packet_stream.txt') as file:
     line = file.readline()
-    unique_elements(4,line)
-    unique_elements(14,line)
+    print(unique_elements(4,line))
+    print(unique_elements(14,line))
 
 
 
