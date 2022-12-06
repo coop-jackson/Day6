@@ -23,7 +23,7 @@ def unique_elements(num, line):
                 differ = True
         
         if differ:
-            return 1 + 1
+            return i + 1
             
 with open('packet_stream.txt') as file:
     line = file.readline()
